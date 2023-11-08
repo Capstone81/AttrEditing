@@ -5,8 +5,8 @@ import random
 # =                                   param                                    =
 # ==============================================================================
 
-label_file = '/content/AttGAN-Tensorflow/data/CelebAMask-HQ/CelebAMask-HQ-attribute-anno.txt'
-save_dir = '/content/AttGAN-Tensorflow/data/CelebAMask-HQ'
+label_file = '/content/AttrEditing/data/CelebAMask-HQ/CelebAMask-HQ-attribute-anno.txt'
+save_dir = '/content/AttrEditing/data/CelebAMask-HQ'
 
 
 # ==============================================================================
