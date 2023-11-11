@@ -24,7 +24,8 @@ py.arg('--experiment_name', default='default')
 args_ = py.args()
 
 # output_dir
-output_dir = py.join('output', args_.experiment_name)
+#output_dir = py.join('output', args_.experiment_name)\
+output_dir = '/content/AttrEditing/output/AttGAN_128_CelebA-HQ'
 
 # save settings
 args = py.args_from_yaml(py.join(output_dir, 'settings.yml'))
